@@ -162,7 +162,11 @@ const kristynsCloset = [
    "yellow knit hat",
    "marshmallow peeps"
 ];
-
+console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!")
+kristynsCloset.splice(6,0, "raybans")
+console.log(kristynsCloset);
+kristynsCloset.splice(5,1, "stained knit hat")
+console.log(kristynsCloset);
 const thomsCloset = [
    [
      // These are Thom's shirts
@@ -182,6 +186,11 @@ const thomsCloset = [
      "raybans"
    ]
  ];
+ console.log(thomsCloset[0][0]);
+ let shirt = thomsCloset[0][1]
+ let pants = thomsCloset[1][2]
+ let accessories = thomsCloset[2][2]
+ console.log("Thom is looking fierce in a" + shirt + ", " + pants + ", and " + accessories + "!")
 
 
 //printGreeting
@@ -304,7 +313,7 @@ function isVowel(char) {
    user.friend.age = 55;
    user.friend.purchased.push("The One Ring");
    user.friend.purchased.push("A latte");
-   console.log(user.friend.purchased[1]);
+   console.log(user.friend.purchased.[1]);
 
    // Loops
 
