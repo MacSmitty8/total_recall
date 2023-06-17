@@ -1,8 +1,18 @@
 ## Q + A
 1. How do we assign a value to a variable?
+Ans: We assign a value to a variable by using an "=" the using a string or a number to that variable
+Example: x = 5; y = 8; z = 10; const name = "Macreen";
 2. How do we change the value of a variable?
+   Ans: We change the value of a variable through reassigning the variable.
+   Example var weatherCondition = "Monday: Raining"
+   weatherCondition = "Tuesday: Sunny";
+   console.log(weatherCondition);
+   Output: 'Tuesday: Sunny'
 3. How do we assign an existing variable to a new variable?
+   After creating a variable that's assigned to a number or string, you can assign the value of that variable to another variable using the assignment operator
 4. Remind me, what are declare, assign, and define?
+   Ans: Declare is letting JavaScript know that there is a variable in the code, examples include var, let, and const. Assigning usually happens when using '=', to let JavaScript know that the variable is that specific value. Defining is when using function "functionName" to make sure it works.
+   Example: function greeting () {} 
 
 Declare is to let js know that there is a variable `let a;`
 To assign a value to the variable. I need to use `=`.
@@ -11,6 +21,7 @@ For example: `let a = 0`
 ### Research 
 
 5. What is pseudocoding and why should you do it?
+   My Ans: Pseudocoding is writing code in spoken language so that others can understand what the general feel for what the code will be used for/look like. It helps make people who aren't exactly "code-fluent" to understand how certain aspects of a website or a function would work.
 
 Pseudocoding is writing code in plain spoken language that humans can understand.
 
@@ -20,7 +31,8 @@ Psuedocode allows us to break down problems into solvable peices that can be tra
 
 Psudocode is the bridge between our minds and the code. 
 
-6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+1. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+   Ans: I've seen a variety of answers on this, ranging from 90% to 50% on typing in the code. I personally think 90% of the time will be spent trying to solve the problem vs coding it in since if well drafted/prepared a majority of the code can be typed in ready to go.
 
 ## Strings
 
@@ -29,8 +41,8 @@ Psudocode is the bridge between our minds and the code.
 - Create a variable called firstVariable
 - Assign it the value of the string "Hello World"
 - Change the value of this variable to some number
-- Store the value of firstVariablein a new variable called secondVariable
-- Change the value of secondVariableto any string.
+- Store the value of firstVariable in a new variable called secondVariable
+- Change the value of secondVariable to any string.
 
 What is the value of firstVariable?
 
@@ -142,9 +154,11 @@ Check your work! Your `bank_account` should have $10,100 in it.
 
 ### A. Talk about it:
 What are the things in an array called?
+Ans: The things that are arrays are called elements.
 Do Arrays guarantee those things will be in order?
+Ans: There are methods that can be used to make sure it sorted in any order a user wishes, whether alphabetically, numerically, reverse, etc. However by default it'll be left as the user inputted the array.
 What real-life thing could you model with an array?
-
+Ans: A real-life thing you could model with an array would be a muffin tray or an egg carton.
 
 
 ### B. Easy Does It
