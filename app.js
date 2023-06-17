@@ -142,10 +142,10 @@ if (num <= 100) {
 }
 
 //Monkey in the Middle
-const num = 6
-if (num < 5) {
+const nums = 6
+if (nums < 5) {
    console.log("Little number");
-} else if (num > 10) {
+} else if (nums > 10) {
    console.log("Big number");
 } else {
    console.log("monkey");
@@ -202,12 +202,12 @@ printGreetingWith("Kevin");
 
 //printcool
 
-function printCoolThat(name) {
-   let name = 'Ryan';
-   console.log(printCoolThat(name + "is cool!"));
+function printCool(name) {
+  
+   console.log(name + "is cool!");
 }
+printCool("Ryan");
 
-printCoolThat();
 
 //Calculate a cube
 
@@ -282,10 +282,10 @@ function isVowel(char) {
    //OBJECTS
    //Make a user object
     const user = {
-      name = "Macreen",
-      email = "macreensmith@gmail.com",
-      age = 23,
-      purchased = [] 
+      name : "Macreen",
+      email : "macreen@gmail.com",
+      age : 23,
+      purchased : [] 
     }
    //update user
       user.email = "macsmit@gmail.com";
@@ -313,7 +313,7 @@ function isVowel(char) {
    user.friend.age = 55;
    user.friend.purchased.push("The One Ring");
    user.friend.purchased.push("A latte");
-   console.log(user.friend.purchased.[1]);
+   console.log(user.friend.purchased[1]);
 
    // Loops
 
@@ -327,12 +327,12 @@ function isVowel(char) {
    //Functions can operate an objects
    function updateUser() {
       user.age = user.age + 1;
-      user.name = user.name[0].toUpperCase;
+      user.name = user.name.toUpperCase;
    }
 
    function oldAndLoud(person) {
       person.age = person.age + 1;
-      person.name = person.name[0].toUpperCase;
+      person.name = person.name.toUpperCase;
    }
    oldAndLoud(user);
 // let longest = array.reduce( (firstEl, secondEl) => {
